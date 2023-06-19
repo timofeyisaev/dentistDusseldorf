@@ -1,0 +1,65 @@
+.container{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+
+.rightContainer{
+    background-image: url('../Images/notfound1.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.leftContainer{
+    position: absolute;
+    padding: 50px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    width: 504px;
+    
+}
+
+.leftContainer h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 55px;
+    color: #2E3192;
+}
+
+.leftContainer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 5%;
+    color: #2E3192;
+}
+
+.button{
+    width: 241px;
+    height: 56px;
+    background-color: #D7569C;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+}

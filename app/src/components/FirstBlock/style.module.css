@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: rgba(246, 246, 246, 1);
+    
+}
+
+.leftBlock{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    
+    
+}
+
+.leftBlock h4{
+    height: 240px;
+    color: #D7569C;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: Black;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 100%;
+}
+
+.leftBlock p{
+    width: 305px;
+    height: 75px;
+    color: #2E3192;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    align-self: left;
+    letter-spacing: 5%;
+
+}
+
+.leftBlock button{
+    width: 242px;
+    height: 56px;
+    color: white;
+    background: linear-gradient(276.72deg, #EC79B7 37.4%, #9865ED 316.42%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+.humanpic{
+    width: 640px;
+}
+
+.mansContainer{
+    position: relative;
+}
+
+.head{
+    position: absolute;
+    right: 185px;
+    top: 111px;
+    background: transparent;
+}

@@ -1,0 +1,88 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    background: linear-gradient(2.57deg, #3B3EA4 12.57%, #3B3EA4 12.58%, rgba(46, 49, 146, 0) 103.14%);
+    color: white;
+    position: relative;
+    
+}
+
+.texturetop{
+    position: absolute;
+    opacity: 0.4;
+    width: 100%;
+}
+
+.starline{
+    left: 40%;
+    position: absolute;   
+   
+}
+
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 30px;
+    gap: 30px;
+    
+  
+}
+
+.descriptionContainer h3{
+    font-family: Gilroy;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 45px;
+    align-self: Left;
+    letter-spacing: 5%;
+}
+
+.topContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 70px;
+}
+
+.bulletsContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.bulletsContainer p{
+    font-family:'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 35px;
+    align-self: Left;
+    letter-spacing: 5%;
+}
+
+.rightContainer{
+    
+}
+
+.descriptionContainer button{
+    width: 243px;
+    height: 56px;
+    color: white;
+    background: linear-gradient(276.72deg, #EC79B7 37.4%, #9865ED 316.42%);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 10%;
+    border: none;
+    cursor: pointer;
+}
+
+.star{
+    width: 24px;
+    height: 34px;
+}
